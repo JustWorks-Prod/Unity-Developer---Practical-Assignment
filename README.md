@@ -22,7 +22,7 @@ Unity version: 2020.3.25f1
 
 •	If player pushes the same type of game object one by one the score decreases on double value.
 
-    o	Not entirely sure what is meant by this.
+    o	Instructions are unclear.
 
 ~~•	The player moves to the next level when you achieve 100 points.~~
 
