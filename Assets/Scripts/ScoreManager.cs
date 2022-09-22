@@ -13,8 +13,8 @@ public class ScoreManager : MonoBehaviour
     public Text capsulesText;
 
     public int score = 0;
-    int capsules = 0;
-    int spheres = 0;
+    public int capsules = 0;
+    public int spheres = 0;
 
     CharacterController characterController;
 
