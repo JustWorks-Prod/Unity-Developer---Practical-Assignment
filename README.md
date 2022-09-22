@@ -31,6 +31,7 @@ Unity version: 2020.3.25f1
     o	The win and lose conditions are specified on-screen, as it is unclear as to how these conditions should be expressed.
 
 ~~•	Please scale the Cylinder and appearance depending on the game Level. Results of the game (Time of attempt, Score, amount of pushed objects) save as a JSON file to the file system.~~
+
     o	Save data is not yet implemented
 
 ~~•	Score:
