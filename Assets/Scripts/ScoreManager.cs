@@ -25,6 +25,8 @@ public class ScoreManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        //TimeStamp.instance.BeginTimer();
+
     }
 
     // Start is called before the first frame update

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
@@ -83,8 +84,8 @@ public class ThirdPersonMovement : MonoBehaviour
         if(ScoreManager.instance.score >= 400 && winCondition == true)
         {
             //controller.transform.position = playerSpawnLvl2.transform.position;
-            player.SetActive(false);
-            playerPosition.position = new Vector3(playerSpawnLvl3.position.x, playerSpawnLvl3.position.y, playerSpawnLvl3.position.z);
+            //player.SetActive(false);
+            //playerPosition.position = new Vector3(playerSpawnLvl3.position.x, playerSpawnLvl3.position.y, playerSpawnLvl3.position.z);
             winCondition = false;
             Debug.Log("You Win!  " + playerSpawnLvl3.transform.position);
             player.SetActive(true);
@@ -104,4 +105,5 @@ public class ThirdPersonMovement : MonoBehaviour
         }
 
     }
+        
 }
