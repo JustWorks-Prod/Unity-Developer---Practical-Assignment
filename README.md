@@ -6,7 +6,7 @@ Practical Task – Unity / C# Developer
 
 Unity version: 2020.3.25f1
 
-~~•	Please create 3D Test Project and implement the game. ~~
+~~•	Please create 3D Test Project and implement the game.~~
 
 ~~•	The main player is Cylinder, which collects other models in the play zone.~~
 
@@ -16,9 +16,9 @@ Unity version: 2020.3.25f1
 
 ~~•	The game starts with a 0 score. When Cylinder pushes other game objects - the score increases, depending on the game object and level, and the object disappears from the game.~~
 
-~~•	The new game objects appear randomly in the play zone after Cylinder pushed another game object. ~~
+~~•	The new game objects appear randomly in the play zone after Cylinder pushed another game object.~~
 
-~~•	From time to time in the game appear Cube which Cylinder can't move them, the player should bypass it. ~~
+~~•	From time to time in the game appear Cube which Cylinder can't move them, the player should bypass it.~~
 
 •	If player pushes the same type of game object one by one the score decreases on double value.
 
